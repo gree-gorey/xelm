@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<values>
+  <name>nginx</name>
+  <image>nginx</image>
+  <imageTag>1.9-alpine</imageTag>
+</values>
