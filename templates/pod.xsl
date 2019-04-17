@@ -7,7 +7,7 @@
       <metadata>
         <name><xsl:value-of select="values/name"/></name>
         <labels>
-          <name>nginx</name>
+          <app>nginx</app>
         </labels>
       </metadata>
       <spec>

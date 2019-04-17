@@ -34,7 +34,7 @@ And example template file for Pod manifest:
       <metadata>
         <name><xsl:value-of select="values/name"/></name>
         <labels>
-          <name>nginx</name>
+          <app>nginx</app>
         </labels>
       </metadata>
       <spec>
@@ -139,6 +139,5 @@ spec:
 
 ## TODO
 
+- [x] Docker image
 - [ ] multiple templates
-- [ ] requirements
-- [ ] Docker image
