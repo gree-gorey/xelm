@@ -25,8 +25,6 @@ def get_obj(root):
 
 def main():
     xml = sys.stdin.read()
-    # with open("test.xml") as f:
-    #     xml = f.read()
     root = fromstring(xml)
     manifest = get_obj(root)
     ser = json.dumps(manifest, indent=4)
