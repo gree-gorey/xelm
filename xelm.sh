@@ -31,7 +31,7 @@ Options are:
 fi
 
 if [ "$OUTPUT" = "xml" ] ; then
-  xsltproc ./templates/deploy.xsl values.xml | xmllint --format -;
+  xsltproc ./templates/pod.xsl values.xml | xmllint --format -;
 elif [ "$OUTPUT" = "json" ] ; then
-  xsltproc ./templates/deploy.xsl values.xml | xmllint --format - | python3 ./tojson.py;
+  xsltproc ./templates/pod.xsl values.xml | xmllint --format - | python3 ./tojson.py;
 fi
