@@ -11,6 +11,15 @@ Options are:
     -o, --output='xml': Output format. One of: xml, json
 ```
 
+Using docker:
+```console
+$ docker run greegorey/xelm:0.0.1 -h
+Usage: xelm [options] [--help]
+
+Options are:
+    -o, --output='xml': Output format. One of: xml, json
+```
+
 ## How it works
 
 We have `values.xml` file containing variables for templates:
