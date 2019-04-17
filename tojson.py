@@ -1,3 +1,4 @@
+import sys
 import json
 from xml.etree.ElementTree import fromstring
 
@@ -23,8 +24,9 @@ def get_obj(root):
         return obj
 
 def main():
-    with open("test.xml") as f:
-        xml = f.read()
+    xml = sys.stdin.read()
+    # with open("test.xml") as f:
+    #     xml = f.read()
     root = fromstring(xml)
     manifest = get_obj(root)
     ser = json.dumps(manifest, indent=4)
