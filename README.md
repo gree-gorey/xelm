@@ -136,3 +136,9 @@ spec:
     ports:
     - containerPort: 80
 ```
+
+## TODO
+
+- [ ] multiple templates
+- [ ] requirements
+- [ ] Docker image
